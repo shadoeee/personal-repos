@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <form>
+        <div class="group">
+            <label for="name">Name<span class="mandatory">*</span></label>
+            <div class="join">
+                <div class="set">
+                    <input type="text" id="name">
+                    <h3>First</h3>
+                </div>
+                <div class="set">
+                    <input type="text" id="name">
+                    <h3>Last</h3>
+                </div>
+            </div>
+        </div>
+        <div class="group">
+            <label for="email">Email<span class="mandatory">*</span></label>
+            <input type="text" id="email">
+        </div>
+
+        <div class="group">
+            <label for="rate">Your Experience<span class="mandatory">*</span></label>
+            <div class="set">
+                <i class="fa-solid fa-star" style="color: #f9eb1f;"></i>
+                <i class="fa-solid fa-star" style="color: #f9eb1f;"></i>
+                <i class="fa-solid fa-star" style="color: #f9eb1f;"></i>
+                <i class="fa-solid fa-star" style="color: #f9eb1f;"></i>
+                <i class="fa-solid fa-star" style="color: #f9eb1f;"></i>
+            </div>
+        </div>
+
+        <p class="over">Overall.how would you rate your experience with us?</p>
+
+        <h2>How satisfied are you with<span class="mandatory">*</span></h2>
+
+        <div class="group">
+            <div class="review">
+                <p class="category" style="color: white;">React</p>
+                <p class="category">Very Unsatisfied</p>
+                <p class="category">Unsatisfied</p>
+                <p class="category">Neutral</p>
+                <p class="category">Satisfied</p>
+                <p class="category">Very Satisfied</p>
+            </div>
+
+            <div class="review color">
+                <p class="sub">Purchase</p>
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+            </div>
+
+            <div class="review">
+                <p class="sub">Service</p>
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+            </div>
+
+            <div class="review color">
+                <p class="sub">Company Overall</p>
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+            </div>
+
+        </div>
+
+        <h2>How satisfied are you with<span class="mandatory">*</span></h2>
+
+        <div class="group">
+            <div class="review">
+                <p class="category" style="color: white;">React</p>
+                <p class="category">Very Unlikely</p>
+                <p class="category">Unlikely</p>
+                <p class="category">Neutral</p>
+                <p class="category">Likely</p>
+                <p class="category">Very Likely</p>
+            </div>
+
+            <div class="review color">
+                <p class="sub">Buy from us again</p>
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+            </div>
+
+            <div class="review">
+                <p class="sub">Recommend our Product to others</p>
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+            </div>
+
+            <div class="review color">
+                <p class="sub">Recommend our Company to others</p>
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+                <input type="checkbox" class="circle">
+            </div>
+
+        </div>
+
+        <h2>Additional comments or suggestions</h2>
+
+        <div class="group">
+            <textarea name="comments" id="message" rows="5"></textarea>
+        </div>
+
+        <button>Submit</button>
+
+    </form>
+</body>
+
+</html>
