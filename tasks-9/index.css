@@ -1,0 +1,92 @@
+/* Add your CSS styling here */
+
+body {
+    background-color: rgb(247, 161, 255);
+}
+/* body {
+    font-family: Arial, sans-serif;
+} */
+
+form {
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+form {
+    background-color: white;
+    padding: 20px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 27%;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.combo {
+    display: flex;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(138, 134, 134);
+    color: white;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+table {
+    width: 50%;
+    margin-left: 23%;
+}
+
+th {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(124, 124, 255);
+    border-color: black
+}
+
+td {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    font-weight: 500;
+}
