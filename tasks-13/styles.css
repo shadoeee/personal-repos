@@ -1,0 +1,72 @@
+/* Apply general styles to the entire page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eb8bbf;
+    text-align: center;
+    /* Center the content horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+}
+
+
+/* Style the input fields and button */
+
+input[type="number"],
+select,
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+}
+
+
+/* Style the result div */
+
+#factResult {
+    font-size: 36px;
+    /* Larger font size */
+    line-height: 1.5;
+    padding: 20px;
+    margin: 20px auto;
+    /* Center the result div horizontally */
+    max-width: 600px;
+    /* Limit the maximum width of the result div */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+/* Add spacing between elements */
+
+label {
+    margin-right: 10px;
+}
+
+
+/* Style the select dropdown */
+
+select {
+    width: 150px;
+}
