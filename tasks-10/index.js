@@ -1,16 +1,59 @@
-const countdownElement = document.getElementById("countdown");
+const hell = document.querySelector(".hell");
 
-const countdown = (seconds, callback) => {
-    if (seconds > 0) {
-        countdownElement.innerText = seconds;
-        setTimeout(() => {
-            countdown(seconds - 1, callback);
+
+setTimeout(function() {
+    hell.innerText = "10";
+    setTimeout(function() {
+        hell.innerText = "9";
+        setTimeout(function() {
+
+            hell.innerText = "8";
+            setTimeout(function() {
+
+                hell.innerText = "7";
+                setTimeout(function() {
+
+                    hell.innerText = "6";
+                    setTimeout(function() {
+
+                        hell.innerText = "5";
+                        setTimeout(function() {
+
+                            hell.innerText = "4";
+                            setTimeout(function() {
+
+                                hell.innerText = "3";
+                                setTimeout(function() {
+
+                                    hell.innerText = "2";
+                                    setTimeout(function() {
+
+                                        hell.innerText = "1";
+                                        setTimeout(function() {
+
+                                            hell.innerText = "Happy Independence Day!";
+
+                                        }, 1000);
+
+
+                                    }, 1000);
+
+
+                                }, 1000);
+
+
+                            }, 1000);
+
+                        }, 1000);
+
+                    }, 1000);
+
+                }, 1000);
+
+            }, 1000);
+
         }, 1000);
-    } else {
-        callback();
-    }
-};
+    }, 1000);
+}, 1000);
 
-countdown(10, () => {
-    countdownElement.innerText = "Happy Independence Day!";
-});
+// console.log("Welcome to loupe.");
