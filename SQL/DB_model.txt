@@ -1,0 +1,58 @@
+Entities:
+
+Students
+
+student_id (Primary Key)
+name
+email
+age
+gender
+address
+phone_number
+date_of_birth
+
+Instructors
+
+instructor_id (Primary Key)
+name
+email
+expertise
+bio
+contact_details
+
+Classes
+
+class_id (Primary Key)
+title
+description
+start_date
+end_date
+instructor_id (Foreign Key referring to Instructors)
+location
+max_students_allowed
+
+Enrollments
+
+enrollment_id (Primary Key)
+student_id (Foreign Key referring to Students)
+class_id (Foreign Key referring to Classes)
+enrollment_date
+completion_status (e.g., completed, ongoing, dropped, etc.)
+grade
+
+Class_Schedule
+
+schedule_id (Primary Key)
+class_id (Foreign Key referring to Classes)
+day_of_week
+start_time
+end_time
+
+Materials
+
+material_id (Primary Key)
+class_id (Foreign Key referring to Classes)
+material_name
+material_type (e.g., video, document, presentation)
+link (URL to the material)
+description
