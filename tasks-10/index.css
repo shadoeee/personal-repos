@@ -7,13 +7,12 @@ body {
     margin: 0;
 }
 
-.hell {
+.countdown {
     font-size: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* To center vertically as well */
     animation: hellAnimation;
 }
 
